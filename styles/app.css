@@ -1,0 +1,50 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+}
+h1{margin-top: 0;
+    text-align: center;
+}
+header{
+    width: 80%;
+    border: 3px solid;
+   
+   
+}
+#navbar{ display: grid;
+    grid-template-columns:repeat(12,fr);
+     grid-template-rows:auto;
+     border: 3px solid blue;
+ }
+
+ #navbar ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    grid-column:1/span 6;
+    grid-row:1;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+ }
+ .search{
+    grid-column:10/span 2;
+    grid-row:1;
+ }
+ #popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+ }
+ #popular div{
+
+border: 3px solid greenyellow;
+padding: 100px;
+margin: 30px;
+
+ }
